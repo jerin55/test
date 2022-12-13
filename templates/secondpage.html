@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            background-color:black;
+        }
+        
+        
+        h1{
+            color: green;
+            font-family:'Times New Roman', Times, serif;
+        }
+        p{
+            color: white;
+        }
+        .ll{
+           color: green;
+           text-decoration: underline;
+        }
+        li:hover{
+            opacity: 50%;
+        }
+        .for:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+
+    </head>
+   
+    <body  >
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top ">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+        
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class=" for navbar-nav ml-auto " style="margin-right:10px ; padding-right: 40px; ;">
+               <li class="nav-item" >
+                   <a href="{% url 'firstpage' %}" class="nav-link" >Home</a>
+               </li>
+               <li class="nav-item">
+                   <a href="log.html" target="_blank" class="nav-link">Log In
+                   </a>
+               </li>
+               <li class="nav-item">
+                   <a href="district.html" target="_blank" class="nav-link">District</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="spcl.html" target="_blank">Specialities</a>
+               </li>
+               <li class="nav-item">
+                <a href="aboutus.html" class="nav-link" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link"></a>
+            </li>
+           
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown"></a>
+                <div class="dropdown-menu" style="background-color:grey ;">
+                    <a class="dropdown-item" href="">sign up</a>
+                    <a class="dropdown-item" href="">Lern More</a>
+
+                    
+                </div>
+            </li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="container">
+   
+
+        <ul class="">
+            <li style="position: fixed; ">
+                <a href="{% url 'firstpage' %}" target="_blank" style="position: fixed ;color: white;  ;"><b>Back  </b></a>
+            </li>
+            
+        </ul><br><br>       
+        <div class="container">
+          
+        <h1 style="text-align: center;margin-top: 50px;">IDUKKI<br>
+        <img src="{% static 'images/dis/m1.jpg' %}"  height="200" width="400"></h1>
+        <p style="text-align:justify ;">
+            The Idukki district forms a high altitude plateau with rugged mountainous terrain, several river valleys and deep gorges.[7] The entire northern part of the district forms a sub plateau higher than the rest of the district, this region includes the tallest peaks like Anamudi and includes the areas around Munnar, Pallivasal, Kanthalloor, Vattavada and Mankulam. The Pambar river valley (Marayoor, Keezhanthoor) forms an eastern sloping rain shadow region of the Western Ghats. The eastern frontier of the district (Kumily, Kattapana, Nedumkandam, Rajakumari and Ramakkalmedu) constitutes the Cardamon hills. The western part of the district is covered by forests and hills bordering the eastern regions of Ernakulam and Kottayam district like Neriyamangalam, Vannapuram, Thommankuthu, Moolamattom, Vagamon and Kuttikanam. Places like Thodupuzha, Koothattukulam, Udumbanoor and Muttom are situated in the semi elevated Thodupuzha river plains with scattered hills. The Periyar river basin in the district which includes Vandiperiyar, Ayyapankoil, Rajakkad, Idukki, Cheruthoni and Adimaly is an elevated plateau crisscrossed by river valleys and lies between the high peaks of the western and eastern parts of the district. The southern region is entirely covered with the forests of the Periyar National Park.[citation needed]
+
+
+            Anamudi and Meesapulimala, the two highest peaks in India south of the Himalayas, are located in Idukki district. Anamudi is situated in the Kuttampuzha Panchayat of Adimali Block in the Kannan Devan Hills village of Devikulam taluk. Thirteen other peaks in the district exceed a height of 2,000 m (6,600 ft). Periyar, Thodupuzhayar, Muthirappuzhayar, and Thalayar are the important rivers of the district. Idukki Dam, Asia's largest arch dam, is located in the Idukki Township. The dam is located at the point where the Periyar flows through the gorge formed between two high and massive rocks known as 'Kuravan' and 'Kurathi'.[8]
+        </p>
+        <li class="ll"><b>Climate Change</b></li>
+        <p style="text-align:justify ;">
+            Idukki has a large area of dense forest cover and shola forests. It is highly vulnerable to floods and drought and is considered a climate change hotspot in Kerala, along with the districts of Alappuzha, Palakkad, and Wayanad.[9] Researchers attribute the increasing frequency in landslides in Idukki to climate change and deforestation.[10][11] Changes in rainfall patterns caused by climate change, coupled with deforestation and large-scale construction projects, are among the contributing factors that led to the August 2020 landslide that killed 65 people, including plantation workers.[12]
+        </p>
+        <li class="ll"><b>Demographics</b></li>
+        <p style="text-align:justify ;">
+            According to the 2018 Statistics Report, Idukki district has a population of 1,093,156.[1] The 2011 Census places it at 416th among the 640 districts of India.[14] The district has a population density of 251 inhabitants per square kilometre (650/sq mi). Its population growth rate over the decade 2001–2011 was −1.93% due to emigration and low fertility rates. Idukki has a sex ratio of 1,006 females for every 1,000 males,[14] and a literacy rate of 92.2 percent. Scheduled Castes and Scheduled Tribes make up 13.12% and 5.03% of the population respectively.[14]
+
+Languages in Idukki district (2011)[15]
+Language		Speakers
+Malayalam	
+ 
+81.97%
+Tamil	
+ 
+17.48%
+Kannada	
+ 
+0.16%
+Telugu	
+ 
+0.13%
+Others	
+ 
+0.21%
+Distribution of languages
+Source: 2011 Census
+Most of the people in Idukki district speak Malayalam. But Devikulam and Peerumedu taluks have a significant Tamil population, mostly made up of labourers in the tea gardens.[15]
+        </p>
+        <li class="ll"><b>Religion</b></li>
+        <p style="text-align:justify ;">
+            According to the 2011 census, Hindus make up 48.86% (541,854) of the population, with Christians at 43.42%(Syro-Malabar, Jacobite, Pentecostal and Malankara Orthodox) (481,507) and Muslims at 7.41% (82,206).[16]
+        </p >
+        <li class="ll"><b>Tourist Spot</b></li>
+        <p style="text-align:justify ;">
+            Munnar
+
+Tea plantations in Munnar
+Munnar was the summer resort of the British Government in the south. The town is situated at the convergence of three mountain streams, namely Muthirappuzha, Nallathanni, and Kundala. Munnar has some of the largest tea plantations in the world. This hill station, which is more than 5,000 feet above sea level, is a tourist attraction noted for its scenic landscapes.[citation needed] Most of the native flora and fauna of Munnar have disappeared due to severe habitat fragmentation resultant from the creation of the plantations. However, some species continue to survive and thrive in several protected areas nearby, including the new Kurinjimala Sanctuary to the east, the Chinnar Wildlife Sanctuary, Manjampatti Valley, and the Amaravati reserve forest of Indira Gandhi Wildlife Sanctuary to the northeast, the Eravikulam National Park and Anamudi Shola National Park in the north, and the Pampadum Shola National Park to the south. The Palani Hills National Park is proposed to come up to the east of Idukki. These protected areas are especially known for several threatened and endemic species including the Nilgiri tahr, the grizzled giant squirrel, the Nilgiri wood-pigeon, the elephant, the gaur, the Nilgiri langur, the sambar, and the neelakurinji (that blossoms only once in twelve years).[18][19]
+
+The former Kundala Valley Railway in Munnar was destroyed by a flood in 1924, but tourism officials are considering reconstructing the railway line to attract tourists.[20]
+        </p>
+    </div>
+</div> 
+
+    </body>
+</html>
